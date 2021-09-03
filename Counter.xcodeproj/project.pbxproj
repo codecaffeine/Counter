@@ -9,21 +9,22 @@
 /* Begin PBXBuildFile section */
 		C912596A26DAC56800FBA07D /* CounterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C912595726DAC56700FBA07D /* CounterApp.swift */; };
 		C912596B26DAC56800FBA07D /* CounterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C912595726DAC56700FBA07D /* CounterApp.swift */; };
-		C912596C26DAC56800FBA07D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C912595826DAC56700FBA07D /* ContentView.swift */; };
-		C912596D26DAC56800FBA07D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C912595826DAC56700FBA07D /* ContentView.swift */; };
+		C912596C26DAC56800FBA07D /* NumberText.swift in Sources */ = {isa = PBXBuildFile; fileRef = C912595826DAC56700FBA07D /* NumberText.swift */; };
+		C912596D26DAC56800FBA07D /* NumberText.swift in Sources */ = {isa = PBXBuildFile; fileRef = C912595826DAC56700FBA07D /* NumberText.swift */; };
 		C912596E26DAC56800FBA07D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C912595926DAC56800FBA07D /* Assets.xcassets */; };
 		C912596F26DAC56800FBA07D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C912595926DAC56800FBA07D /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C912595726DAC56700FBA07D /* CounterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterApp.swift; sourceTree = "<group>"; };
-		C912595826DAC56700FBA07D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C912595826DAC56700FBA07D /* NumberText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberText.swift; sourceTree = "<group>"; };
 		C912595926DAC56800FBA07D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C912595E26DAC56800FBA07D /* Counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Counter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C912596126DAC56800FBA07D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C912596626DAC56800FBA07D /* Counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Counter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C912596826DAC56800FBA07D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C912596926DAC56800FBA07D /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		C912597A26DAC66000FBA07D /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +58,9 @@
 		C912595626DAC56600FBA07D /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				C912597A26DAC66000FBA07D /* MyPlayground.playground */,
 				C912595726DAC56700FBA07D /* CounterApp.swift */,
-				C912595826DAC56700FBA07D /* ContentView.swift */,
+				C912595826DAC56700FBA07D /* NumberText.swift */,
 				C912595926DAC56800FBA07D /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -187,7 +189,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C912596C26DAC56800FBA07D /* ContentView.swift in Sources */,
+				C912596C26DAC56800FBA07D /* NumberText.swift in Sources */,
 				C912596A26DAC56800FBA07D /* CounterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -196,7 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C912596D26DAC56800FBA07D /* ContentView.swift in Sources */,
+				C912596D26DAC56800FBA07D /* NumberText.swift in Sources */,
 				C912596B26DAC56800FBA07D /* CounterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
