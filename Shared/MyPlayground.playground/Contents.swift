@@ -1,6 +1,7 @@
 //: A UIKit based Playground for presenting user interface
   
 import UIKit
+import SwiftUI
 import PlaygroundSupport
 
 struct IntRange {
@@ -26,3 +27,4 @@ class MyViewController : UIViewController {
 PlaygroundPage.current.liveView = MyViewController()
 
 (5...10).map{ $0 }
+
