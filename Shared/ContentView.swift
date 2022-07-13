@@ -10,18 +10,20 @@ import SwiftUI
 struct ContentView: View {
     @State var value: Double = 2.3
 
+    private let range = 0.00...10.00
+
     var body: some View {
         VStack {
-            Counter($value, format: .percent)
+            Counter($value, format: .currency)
                 .font(.system(.body, design: .monospaced))
             Button {
-                withAnimation {
-                    value = Double.random(in: -999.99...999.99)
+                withAnimation(.easeInOut(duration: 0.1)) {
+                    value = Double.random(in: range)
                 }
             } label: {
                 Text("Change")
             }
-            Slider(value: $value, in: -999.99...999.99)
+            Slider(value: $value, in: range)
                 .padding(EdgeInsets(top: 0, leading: 10, bottom: 0, trailing: 10))
         }
     }
